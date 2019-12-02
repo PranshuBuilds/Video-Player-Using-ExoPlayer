@@ -5,19 +5,25 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:gravity="center"
+    android:gravity="center_horizontal"
     tools:context=".HelpActivity">
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_height="100dp"
+
+        android:src="@drawable/ic_live_help_black_24dp"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="HELP\n"
-        android:textSize="40sp"
+        android:textSize="30sp"
         android:textColor="@color/colorAccent"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="VIDEO PLAYER WITH SAMPLE VIDEOS WITH THUMBLINES AND HEADING \n\nTHE VIDEO IN FOCUS WILL START TO PLAY AS YOU SCROLL\n\nI HAVE USED A CUSTOM VIDEO API FROM A SAMPLE TUTORIAL CLASS\n\nUSE OF SWIPE AND GESTURES IS ALSO ENABLED SO YOU CAN SWIPE LEFT TO SEE THE PROFILE OF THE CREATOR AND SWIPE RIGHT TO SUBCRIBE THE CREATOR"
-        android:textSize="20sp"
+        android:text="#_VIDEO PLAYER ENABLED WITH EXO-PLAYER LIBRARY WITH SAMPLE VIDEOS WITH THIMBLES AND HEADING \n\n#_THE VIDEO IN FOCUS WILL START TO PLAY AS YOU SCROLL\n\n#_I HAVE USED A CUSTOM VIDEO API FROM A SAMPLE TUTORIAL CLASS\n\n#_USE OF SWIPE AND GESTURES IS ALSO ENABLED \n\n#_SO YOU CAN SWIPE LEFT TO SEE THE PROFILE OF THE CREATOR AND SWIPE RIGHT TO SUBSCRIBE THE CREATOR\n\n#_THANK YOU_#"
+        android:textSize="15sp"
         android:padding="15dp"
         android:textColor="@color/colorAccent"/>
 
