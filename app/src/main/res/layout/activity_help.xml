@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".HelpActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HELP\n"
+        android:textSize="40sp"
+        android:textColor="@color/colorAccent"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="VIDEO PLAYER WITH SAMPLE VIDEOS WITH THUMBLINES AND HEADING \n\nTHE VIDEO IN FOCUS WILL START TO PLAY AS YOU SCROLL\n\nI HAVE USED A CUSTOM VIDEO API FROM A SAMPLE TUTORIAL CLASS\n\nUSE OF SWIPE AND GESTURES IS ALSO ENABLED SO YOU CAN SWIPE LEFT TO SEE THE PROFILE OF THE CREATOR AND SWIPE RIGHT TO SUBCRIBE THE CREATOR"
+        android:textSize="20sp"
+        android:padding="15dp"
+        android:textColor="@color/colorAccent"/>
+
+
+</LinearLayout>
