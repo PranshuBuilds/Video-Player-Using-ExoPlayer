@@ -7,8 +7,8 @@
     android:layout_height="wrap_content"
     android:background="@color/colorPrimaryDark"
     android:orientation="vertical"
+    android:padding="10dp"
     android:weightSum="100">
-
 
     <TextView
         android:id="@+id/title"
@@ -21,15 +21,6 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="10dp" />
 
-    <View
-        android:id="@+id/view"
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="#9B9B9B"
-        app:layout_constraintTop_toBottomOf="@+id/title" />
-
-
-
 
     <FrameLayout
         android:id="@+id/media_container"
@@ -40,7 +31,7 @@
         android:layout_marginTop="5dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/view">
+        app:layout_constraintTop_toBottomOf="@id/title">
 
         <ImageView
             android:id="@+id/thumbnail"
@@ -72,6 +63,8 @@
             android:layout_gravity="center"
             android:visibility="gone" />
 
+
     </FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
